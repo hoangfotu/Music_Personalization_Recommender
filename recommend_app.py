@@ -2,7 +2,7 @@
 # cd 'MusicRecommender'
 
 
-pip install streamlit pandas numpy scikit-learn sentence-transformers
+#pip install streamlit pandas numpy scikit-learn sentence-transformers
 
 import streamlit as st
 import pandas as pd
