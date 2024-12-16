@@ -12,7 +12,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.preprocessing import MinMaxScaler
 
 # Load and preprocess the dataset
-df = pd.read_csv(r'C:\Users\a00578421\Downloads\Project\MusicRecommender\Spotify-2000-lyrics-embedding.csv')
+df = pd.read_csv(r'Spotify-2000-lyrics-embedding.csv')
 df.drop(columns=['Unnamed: 0'], inplace=True)
 df['Lyrics_Embedding'] = df['Lyrics_Embedding'].apply(lambda x: np.fromstring(x.strip('[]'), sep=' '))
 
